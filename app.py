@@ -22,4 +22,4 @@ class InferlessPythonModel:
         return {'generated_result': generated_text}
 
     def finalize(self):
-        pass
+        self.model = None
